@@ -1,0 +1,8 @@
+name: Test-Nukkit
+main: robozeri.Test-Nukkit
+version: "0.1"
+api: ["1.0.0"]
+load: POSTWORLD
+author: robozeri
+description: testing capabilities Bukkit, commands, effects and more
+
