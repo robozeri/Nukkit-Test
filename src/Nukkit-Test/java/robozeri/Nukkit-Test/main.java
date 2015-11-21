@@ -11,7 +11,7 @@ public class main extends PluginBase implements Listener {
     
     this.getLogger.warning(TextFormat.GREEN + "Plugin test is enable");
     this.getServer().getPluginManager().registerEvents(this, this);
-    String name = this.getLogger.getName();
+    String name = getLogger.getName();
     this.getLogger.info(name);
   }
   public void onDisable{
