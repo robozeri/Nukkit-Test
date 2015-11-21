@@ -7,11 +7,13 @@ import java.util.Objects;
 
 public class main extends PluginBase implements Listener {
   
+  String name = getLogger.getName();
+  
   public void onEnable{
     
     this.getLogger.warning(TextFormat.GREEN + "Plugin test is enable");
     this.getServer().getPluginManager().registerEvents(this, this);
-    String name = getLogger.getName();
+    
     this.getLogger.info(name);
   }
   public void onDisable{
