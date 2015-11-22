@@ -19,6 +19,7 @@ public class main extends PluginBase implements Listener {
   public void onDisable{
     
     this.getlogger(TextFormat.GREEN + "Plugin test is disable");
+    this.getlogger(TextFormat.YELLOW + "")
   }
   
   
