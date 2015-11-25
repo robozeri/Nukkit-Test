@@ -26,7 +26,7 @@ public class main extends PluginBase implements Listener {
   public void OnCommand(CommandExecuter e){
     
     if(getCommand == "mario"){
-      
+       new getItem(193 );
       
     }
     else {
