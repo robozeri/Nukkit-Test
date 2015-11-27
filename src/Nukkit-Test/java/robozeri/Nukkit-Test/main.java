@@ -30,7 +30,7 @@ public class main extends PluginBase implements Listener {
       
     }
     else {
-      
+      getPlayer()->SendMessage("");
       
     }
   }
