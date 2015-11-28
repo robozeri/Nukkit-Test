@@ -29,8 +29,9 @@ public class main extends PluginBase implements Listener {
        new getItem(193 );
       
     }
-    else {
-      getPlayer()->SendMessage("");
+    else {cccccccccc
+      getPlayer()->SendMessage("succcccccccccccccccccccccccccccccccccccccccccc");
+      ccc
       
     }
   }
